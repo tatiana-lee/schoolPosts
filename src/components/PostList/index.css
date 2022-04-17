@@ -1,9 +1,13 @@
 .posts {
 	width: 100%;
-	display: flex;
-    justify-content: center;
-	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
 	gap: 16px;
+	max-width: 1024px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 95%;
+    margin: 0 auto;
 }
 
 @media (max-width: 880px) {

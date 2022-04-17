@@ -1,10 +1,21 @@
 .header {
-    /* height: 50px; */
     width: 100%;
-	background-color: #c924f2;
-	padding: 12px 0;
+    background: linear-gradient(
+        90deg,
+        rgba(2, 2, 2, 1) 15%,
+        rgba(219, 13, 13, 1) 50%,
+        rgba(2, 2, 2, 1) 85%
+    );
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+.header__wrapper {
+    width: 100%;
     display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 30px;
 }
