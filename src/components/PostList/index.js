@@ -3,11 +3,11 @@ import { PostCard } from '../PostCard'
 import './index.css'
 
 
-export const PostList = ({ list }) => {
+export const PostList = ({ postList, favorites, setFavorites}) => {
   return (
     <div className='posts'>
-        {list.map((e, i) => (
-            <PostCard key={i} postText={e}/>
+        {postList.map((e) => (
+            <PostCard key={e._id} postText={e} isInFavorites={favorites.includes(e._id)} setFavorites={setFavorites}/>
         ))}
     </div>
   )

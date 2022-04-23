@@ -1,14 +1,19 @@
 .footer {
-	width: 100%;
-	background-color: #c924f2;
-	padding-top: 40px;
-	padding-bottom: 40px;
-    margin-top: 20px;
+    width: 100%;
+    background: linear-gradient(
+        90deg,
+        rgba(2, 2, 2, 1) 15%,
+        rgba(219, 13, 13, 1) 50%,
+        rgba(2, 2, 2, 1) 85%
+    );
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 20px 0 -10px 0;
 }
 
 .footer__container {
     line-height: 12px;
-	color: #1a1a1a;
+    color: #fff;
     display: flex;
     justify-content: center;
 }
