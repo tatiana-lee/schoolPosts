@@ -1,0 +1,9 @@
+.logoImg {
+    width: 140px;
+    height: 70px;
+    background-image: url('https://www.redwolf.in/image/catalog/artwork-Images/mens/the-dark-knight-bats-logo-t-shirt-artwork.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    cursor: pointer;
+}
